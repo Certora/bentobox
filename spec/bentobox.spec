@@ -62,7 +62,7 @@ methods {
 }
 
 definition MAX_UINT256() returns uint256 =
-	0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+	0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
 
 /* represent the sum of balanceOf(address token, address account) for all account */
 ghost shareSum(uint) returns uint256 {
